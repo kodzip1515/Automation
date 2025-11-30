@@ -3,7 +3,7 @@ import pyautogui as auto
 
 auto.click(2646,473)#inital click
 
-for x in range(10):
+for x in range(10): #change to how many times you want to replay
     #7x speed
     auto.click(3063,61)
     auto.click(2902,798) #presses start
@@ -20,7 +20,7 @@ for x in range(10):
 
     auto.press("4") #selects Dorudon
     auto.moveTo(3442,369)
-    time.sleep(10)
+    time.sleep(12)
     auto.click(3442,369) #places Dorudon
     time.sleep(277) #waits for game to end
 
