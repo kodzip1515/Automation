@@ -10,18 +10,18 @@ for x in range(10): #change to how many times you want to replay
 
     auto.press("5") #selects starter
     auto.moveTo(2646,474)
-    time.sleep(14)
+    time.sleep(8)
     auto.click(2646,474) #places starter
 
-    auto.press("5") #selects starter
+    auto.press("4") #selects starter
     auto.moveTo(3102,434)
-    time.sleep(5)
+    time.sleep(7)
     auto.click(3102,434) #places starter
 
-    auto.press("4") #selects Dorudon
-    auto.moveTo(3442,369)
-    time.sleep(12)
-    auto.click(3442,369) #places Dorudon
+    #auto.press("4") #selects Dorudon
+    #auto.moveTo(3442,369)
+    #time.sleep(12)
+    #auto.click(3442,369) #places Dorudon
     time.sleep(277) #waits for game to end
 
         #click replay
