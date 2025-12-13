@@ -7,11 +7,11 @@ auto.click(3353, 832)
 while True:
     for x in range(answer):
         #click next
-        auto.click(3353, 833)
-        time.sleep(1)
+        auto.click(3353, 840)
+        time.sleep(0.5)
         # cicks play
         auto.click(2834, 825)
-        time.sleep(21.2)
+        time.sleep(9)
     
     ask = input("go again y/n: ")
     if ask == "y":
