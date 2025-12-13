@@ -11,7 +11,7 @@ while True:
         time.sleep(0.5)
         # cicks play
         auto.click(2834, 825)
-        time.sleep(9)
+        time.sleep(9.5)
     
     ask = input("go again y/n: ")
     if ask == "y":
