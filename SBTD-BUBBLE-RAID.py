@@ -11,7 +11,7 @@ def alls(x, y, unit, t, unit2, x2, y2, t2):
         auto.click(3364, 858)  # replay
         time.sleep(0.8)
         auto.click(2902, 798)  # play
-        time.sleep(5)
+        time.sleep(3)
         # unit 1
         auto.press(unit)
         auto.moveTo(x, y)
@@ -40,4 +40,4 @@ auto.click(2646, 473)  # initial click
 auto.moveTo(3000, 500)
 auto.click(3063, 61)  # 7x speed
 
-alls(2979, 470, "6", 4, "3", 2742, 485, 8)
+alls(2979, 470, "6",6, "3", 2742, 485, 8.3)
