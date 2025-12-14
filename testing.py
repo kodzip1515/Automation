@@ -40,4 +40,4 @@ auto.click(2646, 473)  # initial click
 auto.moveTo(3000, 500)
 auto.click(3063, 61)  # 7x speed
 
-alls(2979, 470, "6", 4, "3", 2742, 485, 8)
+alls(2979, 470, "6", 6, "3", 2742, 485, 6)

@@ -12,8 +12,6 @@ def all(x,y,e,r=514):
     time.sleep(4.3)
     auto.click(2841,372)
 
-
-
 #init
 A = int(input("how many times: "))
 row = int(input("what row: "))
